@@ -328,7 +328,13 @@ ul.product-action li a.add-to-cart {
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
-.container {width:300px}
+  .float-forms-buttons a {left: inherit;	bottom: 0;	right: 0 !important;	width: 45px; position: fixed;}
+
+	.float-forms-buttons a.ff-whatapp { display:block; margin: 0; right: 96px!important;	}
+	.float-forms-buttons a.ff-call {margin: 0; right: 48px!important;	}
+
+	.float-forms-buttons a:hover {left: inherit;	}
+.container {width:90%}
 .boxed-layout .wrapper {
   width: 100%;
 }
@@ -341,6 +347,9 @@ ul.product-action li a.add-to-cart {
 .search {
   display: none;
 }    
+.search-form {
+  width: 100%;
+}
 .mini-cart {
   margin-right: 0;
 }    
@@ -386,7 +395,7 @@ ul.product-action li a.add-to-cart {
   padding-top: 30px;
 }    
 .mean-container a.meanmenu-reveal {
-  left: 80% !important;
+  left: 95% !important;
   top: -63px;
 }   
 .about-desc h2 {
@@ -562,7 +571,11 @@ ul.product-action li a.add-to-cart {
   font-size: 13px;
 }
 .logo {
-  padding: 25px 0;
+  padding:5px 0;
+}
+.sticky .logo {
+  padding:5px 0;
+  width: 115px;
 }    
 .sticky .mean-container a.meanmenu-reveal {
   top: -61px;
@@ -822,19 +835,17 @@ ul.product-action li a.add-to-cart {
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-.container {width:450px}
+.container {width:90%}
 .mini-cart {
   display: block;
 }
-.mean-container a.meanmenu-reveal {
-  left: 80% !important;
-}
+
 .welcome-about {
   padding-bottom: 40px;
   padding-top: 35px;
 }    
 .mean-container a.meanmenu-reveal {
-  left: 55% !important;
+  left: 95% !important;
 }     
 .about-desc p {
   font-size: 14px;

@@ -319,7 +319,29 @@ Version: 1.0
         }
 		$button.parent().find('input').val(newVal);
     });
+ 
     
+    $(".ff-req-quote").click(function(){
+
+      $(".float-forms-buttons").addClass("show");
+
+      $(".forms-cont").addClass("ps-active-y");
+
+      $(".ff-req-quote").addClass("active");		
+
+  });
+
+
+
+  $(".ff-close").click(function(){
+
+      $(".float-forms-buttons").removeClass("show");
+
+      $(".forms-cont").removeClass("ps-active-y");
+
+      $(".ff-req-quote").removeClass("active");		
+
+  });
 
 })(jQuery);
 

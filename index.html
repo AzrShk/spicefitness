@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="manifest.json">
     <link href="images/apple-touch-icon.png" type="images/x-icon" rel="shortcut icon">
     <!-- All css files are included here. -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -17,7 +18,7 @@
     <link href="#" data-style="styles" rel="stylesheet">
     <!-- Modernizr JS -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    <link rel="manifest" href="./manifest.json">
+	<link rel="manifest" href="./manifest.json">
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -57,7 +58,7 @@
                         <div class="row">
                             <div class="col-md-2 col-sm-6 col-xs-9">
                                 <div class="logo">
-                                    <a href="index.html"><img src="images/logo/logo2.png" alt="spicefitness logo"></a>
+                                    <a href="index.html"><img src="images/logo/logo.svg" alt="spicefitness logo"></a>
                                 </div>
                             </div>
                             <div class="col-md-10 hidden-sm hidden-xs">
@@ -91,20 +92,19 @@
                         <div class="col-md-12">
                             <nav id="dropdown">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
+                                    <li><a href="index.html">Home</a></li>
                                     <li><a href="#">Fitness & Wellbeing</a>
                                        <ul class="dropdown_menu">
-                                                    <li><a href="#">Spiritual</a></li>
-                                                    <li><a href="#">Physical</a></li>
-                                                    <li><a href="#">Intellectual</a></li>
-                                                    <li><a href="#l">Cultural</a></li>
-                                                    <li><a href="#">Emotional</a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="#">Spiritual</a></li>
+                                            <li><a href="#">Physical</a></li>
+                                            <li><a href="#">Intellectual</a></li>
+                                            <li><a href="#l">Cultural</a></li>
+                                            <li><a href="#">Emotional</a></li>
+                                        </ul>
+                                    </li>
                                     <li><a href="#">Experts Speak</a></li>
-							        <li><a href="#">Blog</a></li>
-							        <li><a href="#">Contact Us</a></li>
-
+							        <li><a href="blog-details.html">Blog</a></li>
+							        <li><a href="contact-us.html">Contact Us</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -126,7 +126,7 @@
 			<div id="htmlcaption1" class="nivo-html-caption slider-caption-1">
 				<div class="slider-text-table">
 					<div class="slider-text-tablecell">
-						<div class="container-fluid">
+						<div class="container">
 							<div class="row">
 								<div class="col-md-12 col-sm-12 col-xs-12">
 									<div class="slide1-text">
@@ -565,7 +565,9 @@
             <div class="footer-top ptb-100">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6 col-xs-12">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="single-footer contact">
                                 <div class="footer-title">
                                     <h3>Contact us</h3>
@@ -587,7 +589,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2 col-sm-6 col-xs-12">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
                             <div class="single-footer quick-links">
                                <div class="footer-title">
                                     <h3>Quick links</h3>
@@ -620,7 +622,71 @@
        
     </div>
     
-        
+   
+<div class="float-forms-buttons" data-action="show-forms-cont" data-act="full-wh">
+
+        <div class="float-forms-scroll">
+            <a href="tel:+919820024594" class="ff-call"><i class="ff-icon"></i>(+91) 9820024594</a>
+    
+            <a href="#" class="ff-req-quote"><i class="ff-icon"></i>GET IN TOUCH</a>
+    
+            <div class="forms-cont ps-container ps-theme-mobi" data-ps-id="caf33af8-652d-c8ce-e18b-2d7eb989ac34">           
+    
+                <a href="#" class="ff-close"><i class="ff-icon"></i>Close</a>
+    
+                <div class="forms-body">
+    
+                    <p class="mb-10">Please fill the enquiry form if you have any question. We will get back to you at the earliest.</p>                
+    
+                    <form enctype="multipart/form-data" name="request-a-quote-form"  action="enquiry_pop_submit.php" method="POST" >
+    
+                        <div class="form-group">
+    
+                            <input type="email" class="input-field" name="Email" required="" placeholder="Email *" onpaste="return false;" autocomplete="off" role="presentation">
+    
+                        </div>
+    
+                        <div class="form-group">
+    
+                            <input type="text" class="input-field" name="name" required="" placeholder="Name *" onkeyup="this.value=this.value.replace(/[^a-zA-Z \n\r.]+/g, '');" onpaste="return false;" autocomplete="off" role="presentation">
+    
+                        </div>
+    
+                        <div class="form-group">
+    
+                            <input type="text" class="input-field" name="phone" required="" placeholder="Phone Number *"  onkeyup="this.value=this.value.replace(/[^0-9]+/g,'');" maxlength="12" onpaste="return false;" autocomplete="off" role="presentation">
+    
+                        </div>
+    
+                        <div class="form-group m-mb-10">
+    
+                            <textarea class="input-field" name="Message" required placeholder="Write your message to help us understand your requirements" onpaste="return false;"></textarea>
+    
+                        </div>
+                        
+                        <div class="form-group m-mb-10">
+    
+                            <div class="g-recaptcha" data-sitekey="6LdXeVEUAAAAAKM85KMSfspD-YbK3z0Jklr8MggW"></div>
+    
+                        </div>
+    
+                        <div class="form-group centered m-mb-10">
+    
+                            <input type="submit" class="button-frm" value="SEND" name="submit"/>
+    
+                        </div>
+    
+                        <div class="message"></div>
+    
+                    </form>
+    
+                </div>
+    
+            </div> 
+    
+        </div>
+    
+    </div>     
    <!-- Placed js at the end of the document so the pages load faster -->
 
     
@@ -635,7 +701,9 @@
     <script src="js/waypoints.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <!-- pwa js -->
+    <script src="notification.js"></script>
+	
+	 <!-- pwa js -->
     <script>
 if('serviceWorker' in navigator){
 navigator.serviceWorker.register('./sw.js')
@@ -657,28 +725,7 @@ console.error('sw register error',err);
      <script src="./js/toast.js"></script>
     <script src="./js/offline.js"></script>
 <!-- end pwa js-->
+	
 </body>
-
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#config-web-app -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyC8pVS8MLtfHH-FaxCpuPpKcth52jLS6TE",
-    authDomain: "spicefitesspwaweb.firebaseapp.com",
-    databaseURL: "https://spicefitesspwaweb.firebaseio.com",
-    projectId: "spicefitesspwaweb",
-    storageBucket: "spicefitesspwaweb.appspot.com",
-    messagingSenderId: "556376829240",
-    appId: "1:556376829240:web:652063e957608b0f"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-</script>
-
 
 </html>
