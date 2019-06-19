@@ -3616,11 +3616,11 @@ a.button.btn-gray:hover,a.button.btn-border:hover{color:#6bc513}
 .float-forms-buttons a.ff-whatapp {	display: none;}
 .float-forms-buttons a .ff-icon {	display: inline-block;	width: 45px;	height: 45px;	float: left;	margin-right: 10px}
 
-.float-forms-buttons a.ff-req-quote i {	background: url(images/ff-subscribe.png) top #0597a5}
+.float-forms-buttons a.ff-req-quote i {	background: url(images/ff-subscribe.png) top #6bc513}
 
 .float-forms-buttons a.ff-call{margin: 5px 0;}
 
-.float-forms-buttons a.ff-call i {	background: url(images/ff-req-quote.png) top #0597a5}
+.float-forms-buttons a.ff-call i {	background: url(images/ff-req-quote.png) top #6bc513}
 
 .forms-cont a.ff-close {top:0; position: absolute;	display: block;	color: #fff}
 
@@ -3654,7 +3654,7 @@ a.button.btn-gray:hover,a.button.btn-border:hover{color:#6bc513}
 
 .float-forms-buttons .button.animate {animation-name: pulse;	animation-timing-function: ease}
 
-.float-forms-buttons .input-field, .float-forms-buttons textarea {    margin-bottom: 5px;	display: block;	width: 100%;	padding: 7px 10px;	background: #1f2e3b;	border: 1px solid #2a3f50;	border-radius: 4px;	color: #fff}
+.float-forms-buttons .input-field, .float-forms-buttons textarea {    margin-bottom: 5px;	display: block;	width: 100%;	padding: 7px 10px;	background: #1f2e3b!important;	border: 1px solid #2a3f50;	border-radius: 4px;	color: #fff}
 
 .float-forms-buttons .select, .float-forms-buttons .select-wrapper input[type=text] {	display: none}
 
@@ -3670,9 +3670,9 @@ a.button.btn-gray:hover,a.button.btn-border:hover{color:#6bc513}
 
 .float-forms-buttons textarea {	min-height: 77px;	max-width: 100%; font: 300 15px; outline: 0; resize: none}
 
-.float-forms-buttons .button-frm {	padding: 9px 50px;	border: 1px solid #54657e;	border-radius: 25px;	background: 0 0;	text-transform: uppercase;	text-align: center;	color: #8493a8;	transition-duration: .4s;	cursor: pointer}
+.float-forms-buttons .button-frm {	padding: 9px 50px;	border: 1px solid #6bc513;	border-radius: 25px;	background: 0 0;	text-transform: uppercase;	text-align: center;	color: #8493a8;	transition-duration: .4s;	cursor: pointer}
 
-.float-forms-buttons .button-frm:hover { background: #20c3f3; border-color: #20c3f3; color: #fff}
+.float-forms-buttons .button-frm:hover { background: #6bc513; border-color: #6bc513; color: #fff}
 
 .float-forms-buttons ::-webkit-input-placeholder {	color: #ccc; }
 
